@@ -1,0 +1,33 @@
+*{margin: 0px; padding: 0px;}
+html{
+    font-size: 20px;
+}
+body{
+    /* width: 100%; */
+    width: 960px;
+    margin: 0 auto;  /* 가운데 배치 */
+}
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a, a:visited{
+    color: black; /* 글자색 */
+    text-decoration: none;
+
+}
+
+img{
+    border: 0px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0
+}
+tr{
+    height: 40px;
+}

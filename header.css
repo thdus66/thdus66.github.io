@@ -1,0 +1,45 @@
+.top_main{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.top_title{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top_title > h1 {
+    width: 100%;
+    height: 100%;
+    color: burlywood;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#top_menu {
+    width: 100%;
+    height: 60px;
+    background-color: cornflowerblue;
+}
+
+#top_menu li{
+    display: inline-block;
+}
+
+#top_menu li>a{
+    display: block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+#top_menu li>a:hover{
+    background-color: red;
+    color: white;
+}
